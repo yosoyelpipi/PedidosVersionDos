@@ -28,6 +28,7 @@
 	<preference name="fullscreen" value="true" />
 	<preference name="splash-screen-duration" value="80000" />
 	<gap:splash src="img/splash.png" />
+	<icon src="img/icon_gde.png" />
 	<!--<preference name="exit-on-suspend" value="true" />-->
 	<!--<preference name="android-minSdkVersion" value="5" />-->
 	<!--<preference name="android-targetSdkVersion" value="19" />-->
