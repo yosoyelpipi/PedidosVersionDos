@@ -89,3 +89,108 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  opacity: 0.9;
+  filter: alpha(opacity=1);
+  background-color: #000000;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}    
+	#muestroresultado{
+		text-align: left;
+	}
+	#menu{
+		display: none;
+	}
+	#config{
+		display: none;
+	}
+	#configurado{
+		display: none;
+	}
+	#bajada{
+		display:none;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-size: 18px;
+		}
+	#estado{
+		display:none;
+		}
+	#testeer{
+		display: none;
+	}
+	#download{
+		display: none;
+	}
+	#estadodown{
+		display: none;
+	}
+	#instala{
+		display: none;
+		text-align: center;
+	}
+	#order{
+		display: none;
+	}
+	#cabecera{
+		display: none;
+	}
+	#detalle{
+		display: none;
+	}
+	#ImpTotCot{
+		display: none;
+	}
+	tr{
+		font-size:10px;
+	}
+	th{
+		font-size:10px;
+	}
+	#footer{
+		display:none;
+	}
+	#Artenabled{
+		display: none;
+	}
+	#menuenabled{
+		display: none;
+	}
+	#sync{
+		display: none;
+	}
+	#estadoSync{
+		display: none;
+	}
+    #menufooter {
+        display:  none;
+    }
