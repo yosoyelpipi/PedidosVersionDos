@@ -57,7 +57,7 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 		*/
         console.log('Received Event: ' + id);
-		alert('Comencé');
+		//alert('Comencé');
 		
 		//window.localStorage.setItem("existe_db", 0);
 		onDeviceReadyNow();
