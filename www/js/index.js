@@ -157,6 +157,7 @@ function ShowDownload(){
 					$("#download").show();	
 	}
 */
+
 function ShowDownload(){	
 	var networkState = navigator.connection.type;
 	var states = {};
@@ -186,7 +187,6 @@ function ShowDownload(){
 			navigator.notification.alert('Detectamos que no estás conectado a ninguna red Wi-Fi, conectate a alguna red disponible y volvé por acá');
 		}	
 	}
-
 
 function ShowSync(){	
 	var networkState = navigator.connection.type;
