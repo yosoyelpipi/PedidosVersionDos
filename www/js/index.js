@@ -176,7 +176,7 @@ function ShowDownload(){
 			console.log(states[networkState]);
 			var existe = window.localStorage.getItem("ws");
 			if(!existe){
-					window.notification.navigator.notification.alert('Si bien detectamos que tu dispositivo tiene Wi-Fi, parece que aún no definiste los parámetros de conexión. Andá a la sección configuración y volvé por aquí.');
+					navigator.notification.alert('Si bien detectamos que tu dispositivo tiene Wi-Fi, parece que aún no definiste los parámetros de conexión. Andá a la sección configuración y volvé por aquí.');
 			}else{
 					$("#menuPrincial").hide();
 					$("#bajada").html('Panel de sincronización.').show();
