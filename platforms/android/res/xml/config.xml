@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pedidositris.app" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>ItsPedidos</name>
+    <description>ItsClient es una aplicacion que te permite grabar pedidos con tu celular en Itris Software.</description>
+    <author email="itrisapps@itris.com.ar" href="http://www.itris.com.ar">@itrissoftware</author>
+    <content src="index.html" />
+    <preference name="phonegap-version" value="cli-6.0.0" />
+    <preference name="target-device" value="universal" />
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="fullscreen" value="true" />
+    <preference name="splash-screen-duration" value="80000" />
+    <gap:splash src="img/splash.png" />
+    <icon src="img/icon_gde.png" />
+    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+    <gap:plugin name="net.roughshod.plugins.barcodescanner" version="3.0.0" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <access origin="http://leocondori.com.ar" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
