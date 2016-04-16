@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 			xmlns:gap = "http://phonegap.com/ns/1.0"
 			id        = "com.pedidositris.app"
-			version   = "2.1.0">
+			version   = "2.2.0">
 			
 	<name>ItsPedidos</name>		
 	<description>ItsClient es una aplicacion que te permite grabar pedidos con tu celular en Itris Software.</description>		
@@ -13,7 +13,7 @@
 	<!--<preference name="permissions" value="none"/>-->
 	<!--<preference name="orientation" value="portrait"/>-->
 	<preference name="target-device" value="universal"/>
-	<!--<preference name="fullscreen" value="false"/>-->
+	<preference name="fullscreen" value="false"/>
 	<preference name="android-windowSoftInputMode" value="adjustResize"/>
 	<preference name="webviewbounce" value="true"/>
 	<preference name="prerendered-icon" value="true"/>
@@ -30,17 +30,12 @@
 	<preference name="splash-screen-duration" value="80000" />
 	<gap:splash src="img/splash.png" />
 	<icon src="img/icon_gde.png" />
-	<!--<preference name="exit-on-suspend" value="true" />-->
-	<!--<preference name="android-minSdkVersion" value="5" />-->
-	<!--<preference name="android-targetSdkVersion" value="19" />-->
-	<!--<preference name="android-maxSdkVersion" value="19" />-->
-	<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
-	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
-	<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
-	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
-	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+	<gap:plugin name="org.apache.cordova.device" version="0.3.0" />
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.3.0" />
+	<gap:plugin name="org.apache.cordova.network-information" version="0.2.15" />
+	<gap:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
+	<plugin name="cordova-plugin-whitelist" spec="1.2.1" />	
 	
-	<plugin name="cordova-plugin-whitelist" spec="1" />	
 	<allow-intent href="*" />
 	<allow-navigation href="*" />   
     
