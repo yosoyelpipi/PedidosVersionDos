@@ -8,8 +8,8 @@
 	<description>ItsClient es una aplicacion que te permite grabar pedidos con tu celular en Itris Software.</description>		
 	<author href="http://www.itris.com.ar" email="itrisapps@itris.com.ar">@itrissoftware</author>    
 	<content src="index.html"/>
-	<!--<preference name="phonegap-version" value="cli-6.0.0" />-->
-	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="phonegap-version" value="cli-6.0.0" />
+	<!--<preference name="phonegap-version" value="3.6.3" />-->
 	<!--<preference name="permissions" value="none"/>-->
 	<!--<preference name="orientation" value="portrait"/>-->
 	<preference name="target-device" value="universal"/>
@@ -19,7 +19,7 @@
 	<preference name="prerendered-icon" value="true"/>
 	<preference name="stay-in-webview" value="false"/>
 	<preference name="detect-data-types" value="true"/>
-	<preference name="exit-on-suspend" value="true"/>
+	<preference name="exit-on-suspend" value="false"/>
 	<preference name="show-splash-screen-spinner" value="true"/>
 	<preference name="auto-hide-splash-screen" value="false"/>
 	<preference name="SplashScreen" value="splash" />
@@ -39,7 +39,7 @@
 	<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
 	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-	<gap:plugin name="net.roughshod.plugins.barcodescanner" version="3.0.0" />
+	
 	<plugin name="cordova-plugin-whitelist" spec="1" />	
 	<allow-intent href="*" />
 	<allow-navigation href="*" />   
